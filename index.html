@@ -37,6 +37,20 @@
     <script>L_PREFER_CANVAS = true;</script>
 
     <link rel="stylesheet" href="build/TerriaMap.css">
+    <script language="javascript">
+            window.onload = function (e)
+            {
+                alert("test");
+                $('.menu-bar').style.display='none';
+                $('.compass').style.display='none';
+                $('.navigation-controls').style.display='none';
+                $('.location-bar').style.display='none';
+                $('.distance-legend').style.display='none';
+                $('.explorer-panel-collapse-button').click();
+                $('.explorer-panel').style.display='none';
+                $('.brand-bar').style.display='none';
+            }
+    </script>
 </head>
 
 <body>
@@ -50,17 +64,5 @@
     <div id="loadingIndicator" class="loadingIndicator"></div>
 
     <script src="build/TerriaMap.js"></script>
-    <script>
-            window.onload=function(e){
-                $('.menu-bar').style.display='none';
-                $('.compass').style.display='none';
-                $('.navigation-controls').style.display='none';
-                $('.location-bar').style.display='none';
-                $('.distance-legend').style.display='none';
-                $('.explorer-panel-collapse-button').click();
-                $('.explorer-panel').style.display='none';
-                $('.brand-bar').style.display='none';
-            }
-    </script>
 </body>
 </html>
