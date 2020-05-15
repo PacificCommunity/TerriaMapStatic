@@ -1277,6 +1277,7 @@ button.cesium-infoBox-camera {
   }
 }
 .brand-bar {
+	display: none;
   pointer-events: auto;
   position: absolute;
   left: 0;
@@ -1511,6 +1512,7 @@ button.cesium-infoBox-camera {
   /* Long attributes wrap and interfere with themselves. */
 }
 .distance-legend {
+	display: none;
   pointer-events: auto;
   position: absolute;
   border-radius: 15px;
@@ -1584,6 +1586,7 @@ button.cesium-infoBox-camera {
   border: 1px solid #CCCCCC;
 }
 .explorer-panel {
+	display: none;
   pointer-events: auto;
   font-family: 'Roboto', sans-serif;
   pointer-events: none;
@@ -2049,6 +2052,7 @@ button.cesium-infoBox-camera {
   }
 }
 .location-bar {
+	display: none;
   pointer-events: auto;
   position: absolute;
   border-radius: 15px;
@@ -2089,6 +2093,7 @@ button.cesium-infoBox-camera {
   }
 }
 .menu-bar {
+	display: none;
   position: absolute;
   right: 25px;
   top: 20px;
@@ -2147,6 +2152,7 @@ button.cesium-infoBox-camera {
   }
 }
 .navigation-controls {
+	display: none;
   pointer-events: auto;
   position: absolute;
   border-radius: 15px;
@@ -2200,6 +2206,7 @@ button.cesium-infoBox-camera {
   padding-bottom: 6px;
 }
 .compass {
+	display: none;
   pointer-events: auto;
   position: absolute;
   right: 5px;
