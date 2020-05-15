@@ -52,10 +52,7 @@
     <script src="build/TerriaMap.js"></script>
     <script type="text/javascript">
         //<![CDATA[
-        {
-            window.addEventListener('load', this.handleLoad);
-            
-            function handleLoad()
+            window.onload = function (e)
             {
                 alert("test");
                 $('.menu-bar').style.display='none';
@@ -67,7 +64,6 @@
                 $('.explorer-panel').style.display='none';
                 $('.brand-bar').style.display='none';
             }
-        }
         //]]>
     </script>
 </body>
