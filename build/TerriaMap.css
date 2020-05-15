@@ -1903,6 +1903,7 @@ button.cesium-infoBox-camera {
   fill: #FFFFFF;
 }
 .feature-info-panel-section-header {
+	display: none;
   font-size: 0.9em;
   padding: 8px;
   background-color: #282D32;
@@ -1975,6 +1976,7 @@ button.cesium-infoBox-camera {
   fill: #FFFFFF;
 }
 .feature-info-panel-download-dropdown {
+	display:none;
   float: right;
   margin: 10px;
   height: 35px;
