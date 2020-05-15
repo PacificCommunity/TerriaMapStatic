@@ -2167,7 +2167,6 @@ button.cesium-infoBox-camera {
   padding-bottom: 6px;
 }
 .compass {
-	display: none;
   pointer-events: auto;
   position: absolute;
   right: 5px;
@@ -2176,7 +2175,6 @@ button.cesium-infoBox-camera {
   height: 95px;
 }
 .compass-outer-ring {
-	display: none;
   position: absolute;
   top: 0;
   width: 95px;
@@ -2184,7 +2182,6 @@ button.cesium-infoBox-camera {
   fill: rgba(255, 255, 255, 0.5);
 }
 .compass-outer-ring-background {
-	display: none;
   position: absolute;
   top: 14px;
   left: 14px;
@@ -2194,7 +2191,6 @@ button.cesium-infoBox-camera {
   border: 12px solid rgba(47, 53, 60, 0.8);
 }
 .compass-gyro {
-	display: none;
   pointer-events: none;
   position: absolute;
   top: 0;
@@ -2203,11 +2199,9 @@ button.cesium-infoBox-camera {
   fill: #CCC;
 }
 .compass-gyro-active {
-	display: none;
   fill: #68ADFE;
 }
 .compass-gyro-background {
-	display: none;
   position: absolute;
   top: 30px;
   left: 30px;
@@ -2218,11 +2212,9 @@ button.cesium-infoBox-camera {
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 .compass-gyro-background:hover + .compass-gyro {
-	display: none;
   fill: #68ADFE;
 }
 .compass-rotation-marker {
-	display: none;
   position: absolute;
   top: 0;
   width: 95px;
