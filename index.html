@@ -50,5 +50,24 @@
     <div id="loadingIndicator" class="loadingIndicator"></div>
 
     <script src="build/TerriaMap.js"></script>
+    <script type="text/javascript">
+        //<![CDATA[
+        {
+            window.addEventListener('load', this.handleLoad);
+            
+            function handleLoad()
+            {
+                $('.menu-bar').style.display='none';
+                $('.compass').style.display='none';
+                $('.navigation-controls').style.display='none';
+                $('.location-bar').style.display='none';
+                $('.distance-legend').style.display='none';
+                $('.explorer-panel-collapse-button').click();
+                $('.explorer-panel').style.display='none';
+                $('.brand-bar').style.display='none';
+            }
+        }
+        //]]>
+    </script>
 </body>
 </html>
